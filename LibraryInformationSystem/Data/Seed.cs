@@ -28,53 +28,8 @@ namespace LibraryInformationSystem.Data
                         Language = "Русский",
                         Price = 15,
                         PageCount = 65,
-                        CreatedBy = new User
-                        {
-                            FirstName = "Шерова",
-                            LastName = "Нилуфар",
-                            MiddleName = "Умеджоновна",
-                            DateOfBirth = new DateTime(2000, 07, 08),
-                            DateOfRegister = DateTime.Now,
-                            Type = 'S',
-                            Email = "nellysherova@mail.ru",
-                            Phone = "+992909929763",
-                            Nickname = "Nelly",
-                            Password = "123456789",
-                            Role = new Role
-                            {
-                                Name = "SuperAdmin",
-                                Description = "Главный пользователь системы"
-                            },
-                            Faculty = new Faculty
-                            {
-                                Name = "Естественно - научный",
-                                Directions = new List<Direction>
-                                {
-                                    new Direction
-                                    {
-                                        Name = "Прикладная математика и информатика"
-                                    },
-                                    new Direction
-                                    {
-                                        Name = "Химия, физика и механика материалов"
-                                    },
-                                    new Direction
-                                    {
-                                        Name = "Геология"
-                                    }
-                                }
-                            }
-
-
-                        },
-                        Files = new List<Files>
-                        {
-                            new Files
-                            {
-                                Name = "Photo",
-                                Path = "dsfsdfsdf/dsfsdf"
-                            }
-                        },
+                        CreatedBy = "Ehson",
+                        UpdatedBy = "Nelly",
                         BookAuthors = new List<BookAuthor>
                         {
                             new BookAuthor

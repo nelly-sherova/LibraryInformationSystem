@@ -1,6 +1,6 @@
 ﻿namespace LibraryInformationSystem.Models
 {
-    public class Files
+    public class Fl
     {
         public string Id { get; set; }
         public string Name { get; set; }

@@ -1,6 +1,8 @@
-﻿namespace LibraryInformationSystem.Models
+﻿using LibraryInformationSystem.Models;
+
+namespace LibraryInformationSystem.DTO
 {
-    public class Book
+    public class BookDTO
     {
         public int Id { get; set; }
         public string Title { get; set; }
@@ -15,11 +17,8 @@
         public string CreatedBy { get; set; }
         public string UpdatedBy { get; set; }
         public ICollection<Fl> Fls { get; set; }
-        public ICollection<BookCategory> BookCategories { get; set; }
-        public ICollection<BookAuthor> BookAuthors { get; set; }
-        public ICollection<BookGenre> BookGenres { get; set; }
+       
         public string? Namination { get; set; }
         public int PageCount { get; set; }
-        
     }
 }

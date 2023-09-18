@@ -15,7 +15,7 @@ namespace LibraryInformationSystem.Data
         public DbSet<Category> Categories { get; set; } 
         public DbSet<Direction> Directions { get; set; }
         public DbSet<Faculty> Faculty { get; set;}
-        public DbSet<Files> Files { get; set; }
+        public DbSet<Fl> Files { get; set; }
         public DbSet<Genre> Genres { get; set; }    
         public DbSet<Role> Roles { get; set; }  
         public DbSet<User> Users { get; set; }
